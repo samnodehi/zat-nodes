@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-20T09:25:00.018Z",
+  "generated_at": "2026-06-20T09:30:00.061Z",
   "ttl_seconds": 600,
   "server_count": 14,
   "servers": [
@@ -252,5 +252,5 @@
     "avoid_rotation_during_upload": true,
     "avoid_rotation_during_call": true
   },
-  "signature": "2HP5DOJmvBiVdtcKu3aTe8QUJZqb2PcJNudpHvZ9/8CYcMplUTVQERcfg8kp4Il3Y4ey+dOi9pNprJyCqPzuAQ=="
+  "signature": "gA4yeufQ3XZWRCPI6V6pX25mtghyGc2hwI5iIhIOhP7Ae+GH6bl5sfJXS00gtAJmcmZO2SK17wqQMjftYhD1Aw=="
 }
