@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-29T06:15:00.015Z",
+  "generated_at": "2026-07-29T06:20:00.037Z",
   "ttl_seconds": 600,
   "server_count": 17,
   "servers": [
@@ -344,21 +344,6 @@
     "thresholdN": 3,
     "shards": [
       {
-        "httpEndpoint": "167.233.141.164:8460",
-        "dhtMultiaddr": "/ip4/167.233.141.164/tcp/8461/p2p/12D3KooWNTrU2EhmEj6oFvkxmNkXG4rcnwCeA7CUtJCffJBUmxA1",
-        "reality": {
-          "host": "167.233.141.164",
-          "port": 8445,
-          "uuid": "f0378639-98cf-4ddd-b1fa-ab9c259b5250",
-          "publicKey": "GE6rsoNAnCK-mqV8_eqCY_j0Gi2idoWDod8UH-Pndik",
-          "shortId": "97443cce09111f39",
-          "serverName": "www.cloudflare.com",
-          "fingerprint": "chrome"
-        },
-        "shardPort": 8460,
-        "committeeId": 1
-      },
-      {
         "httpEndpoint": "177.7.52.41:8460",
         "dhtMultiaddr": "/ip4/177.7.52.41/tcp/8461/p2p/12D3KooWNUCq7DdMwYCX9CeLaKNa3Qcqb77yfuS7MM6t8DVd8C4A",
         "reality": {
@@ -371,7 +356,7 @@
           "fingerprint": "chrome"
         },
         "shardPort": 8460,
-        "committeeId": 3
+        "committeeId": 2
       },
       {
         "httpEndpoint": "141.136.42.96:8460",
@@ -386,7 +371,21 @@
           "fingerprint": "chrome"
         },
         "shardPort": 8460,
-        "committeeId": 2
+        "committeeId": 1
+      },
+      {
+        "httpEndpoint": "167.233.141.164:8460",
+        "dhtMultiaddr": "/ip4/167.233.141.164/tcp/8461/p2p/12D3KooWQb4xpahNhnq8gwwpPPfkVAa3nQpPNzDRqHnN6ekVJocJ",
+        "reality": {
+          "host": "167.233.141.164",
+          "port": 8445,
+          "uuid": "f0378639-98cf-4ddd-b1fa-ab9c259b5250",
+          "publicKey": "GE6rsoNAnCK-mqV8_eqCY_j0Gi2idoWDod8UH-Pndik",
+          "shortId": "97443cce09111f39",
+          "serverName": "www.cloudflare.com",
+          "fingerprint": "chrome"
+        },
+        "shardPort": 8460
       }
     ]
   },
@@ -394,5 +393,5 @@
     "period": 20663,
     "signature": "nKLSyQ/jdTbF0BCojzcqnQJkdxRH/LX1ce8lgAtnmoSw335XZW8z4BqOqN22oLDBeBsn12iic8h+3l9Q6q7ICg=="
   },
-  "signature": "Lf5tJbykMBRb1sB27Zh/+8SVawk5tfj6fLD0dq4EQ7eGj+E0SS78hl+qZWEFB6VnQ6InO4aIlMRIvpr4A+vFCw=="
+  "signature": "PsuYnY+Kru2QNTdBBQYnrpEbLUz88OmGdQgjLXaWO2SvUhii3MFnmPDOOm8A8aHysguTfvlWjp4M4UbdjVfWDw=="
 }
