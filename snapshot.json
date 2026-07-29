@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-07-29T10:35:00.017Z",
+  "generated_at": "2026-07-29T10:40:00.044Z",
   "ttl_seconds": 600,
   "server_count": 15,
   "servers": [
@@ -361,5 +361,5 @@
     "period": 20663,
     "signature": "zFe1dbtlxle9pQLo4DTyJPjYSpHJmeGGYp5A5sGk6SFEub11PrkvZNpJ2svAbDDzu2EJOhQsxkSnY++z6LouCQ=="
   },
-  "signature": "Nu4kACoWz3WJOlt/I9WjRQOhL9bHrd2uYnz5ABTqA0Ao1YLErGgTCkbS544A+thlfFuzUs+JDlIGO5vSLeAACw=="
+  "signature": "buzMKBiPsM1HzcMVjA8S5IAnr4xUJx8Q+Uv2MIZ/+JjsJA558VRNgV4VrJEN9uc+ckKnFb7TNKOTYnYqSTFdBg=="
 }
