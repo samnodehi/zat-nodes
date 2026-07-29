@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-29T06:45:00.019Z",
+  "generated_at": "2026-07-29T06:50:00.037Z",
   "ttl_seconds": 600,
   "server_count": 16,
   "servers": [
@@ -353,7 +353,8 @@
           "serverName": "www.cloudflare.com",
           "fingerprint": "chrome"
         },
-        "shardPort": 8460
+        "shardPort": 8460,
+        "committeeId": 2
       },
       {
         "httpEndpoint": "167.233.141.164:8460",
@@ -375,5 +376,5 @@
     "period": 20663,
     "signature": "nKLSyQ/jdTbF0BCojzcqnQJkdxRH/LX1ce8lgAtnmoSw335XZW8z4BqOqN22oLDBeBsn12iic8h+3l9Q6q7ICg=="
   },
-  "signature": "N9zuVXuB9wXnYuMjYOCacMGQYBYzKspsAYZ8IADBRf8P8vNBSUMC6aE0FhYb1PDxF0Oin43yGUqRn/aeDN7vDA=="
+  "signature": "tgbtCIhq6r5FHaPP0ALvWofwWs0I0JUtD2VefVucP9x7H0bFLo+RQcRqANJ6z2MSC/VoNbIkcfCp+eg0YoPVDw=="
 }
