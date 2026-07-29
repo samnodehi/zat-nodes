@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-07-29T11:35:00.015Z",
+  "generated_at": "2026-07-29T11:40:00.036Z",
   "ttl_seconds": 600,
   "server_count": 15,
   "servers": [
@@ -323,21 +323,6 @@
           "fingerprint": "chrome"
         },
         "shardPort": 8460,
-        "committeeId": 2
-      },
-      {
-        "httpEndpoint": "141.136.42.96:8460",
-        "dhtMultiaddr": "/ip4/141.136.42.96/tcp/8461/p2p/12D3KooWHisjTxer6q64yMoByZj2hb16EbkrEbDA9bekzy8iUrcg",
-        "reality": {
-          "host": "141.136.42.96",
-          "port": 8445,
-          "uuid": "61b82be3-2770-4ff7-9fb7-5e79bfbfd79f",
-          "publicKey": "y2bBMBBjkxHdpFCecVDOqovWAKUplf6opF7s7n-C83w",
-          "shortId": "253e3e3ae344807c",
-          "serverName": "www.cloudflare.com",
-          "fingerprint": "chrome"
-        },
-        "shardPort": 8460,
         "committeeId": 1
       },
       {
@@ -353,7 +338,21 @@
           "fingerprint": "chrome"
         },
         "shardPort": 8460,
-        "committeeId": 3
+        "committeeId": 2
+      },
+      {
+        "httpEndpoint": "141.136.42.96:8460",
+        "dhtMultiaddr": "/ip4/141.136.42.96/tcp/8461/p2p/12D3KooWHisjTxer6q64yMoByZj2hb16EbkrEbDA9bekzy8iUrcg",
+        "reality": {
+          "host": "141.136.42.96",
+          "port": 8445,
+          "uuid": "61b82be3-2770-4ff7-9fb7-5e79bfbfd79f",
+          "publicKey": "y2bBMBBjkxHdpFCecVDOqovWAKUplf6opF7s7n-C83w",
+          "shortId": "253e3e3ae344807c",
+          "serverName": "www.cloudflare.com",
+          "fingerprint": "chrome"
+        },
+        "shardPort": 8460
       }
     ]
   },
@@ -361,5 +360,5 @@
     "period": 20663,
     "signature": "zFe1dbtlxle9pQLo4DTyJPjYSpHJmeGGYp5A5sGk6SFEub11PrkvZNpJ2svAbDDzu2EJOhQsxkSnY++z6LouCQ=="
   },
-  "signature": "sAXAACRDQALJGnGF5I7b0XC8yvFPhx82ik/c44w3YA1TNbBRwvu48jUySdqDeSaprV2Knxfa8nbKLI/L3200Ag=="
+  "signature": "SEhk5B7WdQW+xzPho5s3E4DusO8IWPECNKTgrwiLdZZ+092s0iJdy1+Q9OATpUXMr/zCQUdFUD9jphIxxoi7Ag=="
 }
