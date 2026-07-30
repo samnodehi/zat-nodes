@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-07-30T00:25:00.016Z",
+  "generated_at": "2026-07-30T00:30:00.040Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -20,7 +20,19 @@
     }
   ],
   "introducer_url": "https://zat.samnodehi.cloud",
-  "rendezvous_entries": [],
+  "rendezvous_entries": [
+    {
+      "id": "rdv-box-1",
+      "address": "167.233.141.164",
+      "port": 8446,
+      "uuid": "757f9a3a-817f-4c43-8917-58d19b822c53",
+      "public_key": "nzBZyyG-SGghaJYOjn7JviiF0JOhthya3JAepgmVnDM",
+      "short_id": "ee42826cf0b23330",
+      "server_name": "www.cloudflare.com",
+      "fingerprint": "chrome",
+      "flow": ""
+    }
+  ],
   "rotation_policy": {
     "protocol_fallback_order": [
       "sstp"
@@ -41,21 +53,6 @@
     "thresholdN": 3,
     "shards": [
       {
-        "httpEndpoint": "177.7.52.41:8460",
-        "dhtMultiaddr": "/ip4/177.7.52.41/tcp/8461/p2p/12D3KooWE55iYA86ZwgSGMhDjthb4mKHMSFBigsyFqwd3GmkdXMZ",
-        "reality": {
-          "host": "177.7.52.41",
-          "port": 8445,
-          "uuid": "f98bebe1-7559-4be3-abd8-1e29f9a9a136",
-          "publicKey": "nd5N7XYazhiAmlWZcfy1slooGrmnBE6KQn6GQlbdlxw",
-          "shortId": "49bcef6426abdcae",
-          "serverName": "www.cloudflare.com",
-          "fingerprint": "chrome"
-        },
-        "shardPort": 8460,
-        "committeeId": 2
-      },
-      {
         "httpEndpoint": "141.136.42.96:8460",
         "dhtMultiaddr": "/ip4/141.136.42.96/tcp/8461/p2p/12D3KooWGHw1q7UhjF9anreEtNwtA51H93xwvh7UaeYQZd27HhHx",
         "reality": {
@@ -69,6 +66,20 @@
         },
         "shardPort": 8460,
         "committeeId": 1
+      },
+      {
+        "httpEndpoint": "177.7.52.41:8460",
+        "dhtMultiaddr": "/ip4/177.7.52.41/tcp/8461/p2p/12D3KooWE55iYA86ZwgSGMhDjthb4mKHMSFBigsyFqwd3GmkdXMZ",
+        "reality": {
+          "host": "177.7.52.41",
+          "port": 8445,
+          "uuid": "f98bebe1-7559-4be3-abd8-1e29f9a9a136",
+          "publicKey": "nd5N7XYazhiAmlWZcfy1slooGrmnBE6KQn6GQlbdlxw",
+          "shortId": "49bcef6426abdcae",
+          "serverName": "www.cloudflare.com",
+          "fingerprint": "chrome"
+        },
+        "shardPort": 8460
       }
     ]
   },
@@ -76,5 +87,5 @@
     "period": 20664,
     "signature": "6jU3XkpkGsX3PLBOEtfS2ehD8wlFjZRCpF+kiZOKo/q089sCBpvh6gpTEoC8f3xC9A1t5vXT28Fls3bFRB6gCA=="
   },
-  "signature": "v/Lr2x5PWXRjqP2rZnevT3lFyGBncARyb9KgOqfjM3DwpvcTi9TP9n1/S9kz4NEo+BsWq6KRuiAh+UlAmeiPAA=="
+  "signature": "4uJDv6I+Vef4pFpH2QO4BuOPACbBpkA3/JtH/igZAR8XR5xvgFAupX1tYIu3QiU+G1YRaCstLNFg8+jQqexMAg=="
 }
