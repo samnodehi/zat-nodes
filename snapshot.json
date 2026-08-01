@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-08-01T12:00:00.044Z",
+  "generated_at": "2026-08-01T12:03:58.641Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -16,7 +16,10 @@
       "flow": "",
       "country_short": "FI",
       "country_long": "Finland",
-      "quality_score": 1
+      "quality_score": 1,
+      "attested_by": [
+        "CIQyrNDjNlmCAf7XJQqy/uniRdJFt/+edez4NJHGjrw="
+      ]
     }
   ],
   "introducer_url": "https://zat.samnodehi.cloud",
@@ -64,8 +67,7 @@
           "serverName": "www.cloudflare.com",
           "fingerprint": "chrome"
         },
-        "shardPort": 8460,
-        "committeeId": 2
+        "shardPort": 8460
       },
       {
         "httpEndpoint": "177.7.52.41:8460",
@@ -79,8 +81,7 @@
           "serverName": "www.cloudflare.com",
           "fingerprint": "chrome"
         },
-        "shardPort": 8460,
-        "committeeId": 1
+        "shardPort": 8460
       },
       {
         "httpEndpoint": "167.233.141.164:8460",
@@ -94,14 +95,13 @@
           "serverName": "www.cloudflare.com",
           "fingerprint": "chrome"
         },
-        "shardPort": 8460,
-        "committeeId": 3
+        "shardPort": 8460
       }
     ]
   },
   "committee_rank_beacon": {
     "period": 20666,
-    "signature": "wDHPYSG9EUPqedLXkpil8etXmJ7t7D53NLOHK6DyQZ0kaCkN+EXUHSlGqKtQQo0wPHNzZHPTyc2ls75kycz0Ag=="
+    "signature": "uFw4BVVmTRHmWiZXwEzKtRFsi3S/xD65oiCaqscBKkPxjdt+C/zYDVcL9x/rQS3c2zoPbOYnj8LVKpNo2e4lCg=="
   },
-  "signature": "XQDBazZK3f+UcAatuvQ7ARdvtSIqRbTAeYgBUVO2wIDZNi7mFVjh8QHmn8uwl0gz61dw0zqGpoDMtGuBcGX6Ag=="
+  "signature": "Ekkcc1SWSgANTR/xISepV+oqhTpVfp5Q4Y1S6QHnwRP0t2+Kw+nZYE5pXJJyLxVNksI5sq/OaE79mU7JucvpDQ=="
 }
