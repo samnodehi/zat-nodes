@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-08-01T06:00:00.037Z",
+  "generated_at": "2026-08-01T06:05:00.017Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -53,21 +53,6 @@
     "thresholdN": 3,
     "shards": [
       {
-        "httpEndpoint": "141.136.42.96:8460",
-        "dhtMultiaddr": "/ip4/141.136.42.96/tcp/8461/p2p/12D3KooWGHw1q7UhjF9anreEtNwtA51H93xwvh7UaeYQZd27HhHx",
-        "reality": {
-          "host": "141.136.42.96",
-          "port": 8445,
-          "uuid": "61b82be3-2770-4ff7-9fb7-5e79bfbfd79f",
-          "publicKey": "y2bBMBBjkxHdpFCecVDOqovWAKUplf6opF7s7n-C83w",
-          "shortId": "253e3e3ae344807c",
-          "serverName": "www.cloudflare.com",
-          "fingerprint": "chrome"
-        },
-        "shardPort": 8460,
-        "committeeId": 2
-      },
-      {
         "httpEndpoint": "177.7.52.41:8460",
         "dhtMultiaddr": "/ip4/177.7.52.41/tcp/8461/p2p/12D3KooWE55iYA86ZwgSGMhDjthb4mKHMSFBigsyFqwd3GmkdXMZ",
         "reality": {
@@ -81,6 +66,20 @@
         },
         "shardPort": 8460,
         "committeeId": 1
+      },
+      {
+        "httpEndpoint": "141.136.42.96:8460",
+        "dhtMultiaddr": "/ip4/141.136.42.96/tcp/8461/p2p/12D3KooWNxDgAyNbKUsUjLUSNUhVWTs46whq8bM1HK2qr918KquU",
+        "reality": {
+          "host": "141.136.42.96",
+          "port": 8445,
+          "uuid": "61b82be3-2770-4ff7-9fb7-5e79bfbfd79f",
+          "publicKey": "y2bBMBBjkxHdpFCecVDOqovWAKUplf6opF7s7n-C83w",
+          "shortId": "253e3e3ae344807c",
+          "serverName": "www.cloudflare.com",
+          "fingerprint": "chrome"
+        },
+        "shardPort": 8460
       }
     ]
   },
@@ -88,5 +87,5 @@
     "period": 20666,
     "signature": "wDHPYSG9EUPqedLXkpil8etXmJ7t7D53NLOHK6DyQZ0kaCkN+EXUHSlGqKtQQo0wPHNzZHPTyc2ls75kycz0Ag=="
   },
-  "signature": "3NGleNqE0OXp3+1mlkxdIco3eruNy5wR+gK7Ayost/IaKsaS3tx/f6OQCBUHlJreJ1a0E00NXzERAo9KDxvzDQ=="
+  "signature": "IJdrM5dM5wxtmEYMTXwSi9uldV988iB05iCaQhp4YZ5ffdBS1oBj1gH5U/E0uzvcL5Saq3qpnPx9QZKZQCJDDw=="
 }
