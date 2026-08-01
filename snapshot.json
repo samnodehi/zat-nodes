@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-08-01T13:20:00.044Z",
+  "generated_at": "2026-08-01T13:25:00.019Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -60,7 +60,7 @@
     "shards": [
       {
         "httpEndpoint": "167.233.141.164:8460",
-        "dhtMultiaddr": "/ip4/167.233.141.164/tcp/8461/p2p/12D3KooWFV8J39okBEQLcJvuc9GQU2nWAoa8cFUrnwxkzDNyVwa8",
+        "dhtMultiaddr": "/ip4/167.233.141.164/tcp/8461/p2p/12D3KooWEVN6UoKcWQMcVcvuVA2uBVK9xx6teKK8pSxx4trvvtXo",
         "reality": {
           "host": "167.233.141.164",
           "port": 8445,
@@ -74,7 +74,7 @@
       },
       {
         "httpEndpoint": "141.136.42.96:8460",
-        "dhtMultiaddr": "/ip4/141.136.42.96/tcp/8461/p2p/12D3KooWQQftDgLDRbSsQn2isZRsTQ11QpjouHhzVYbq5YrzQgtJ",
+        "dhtMultiaddr": "/ip4/141.136.42.96/tcp/8461/p2p/12D3KooWLFkrr1411A1yuoznamwAv9NAnth2ZAtQrmuX31HSQc8b",
         "reality": {
           "host": "141.136.42.96",
           "port": 8445,
@@ -88,7 +88,7 @@
       },
       {
         "httpEndpoint": "177.7.52.41:8460",
-        "dhtMultiaddr": "/ip4/177.7.52.41/tcp/8461/p2p/12D3KooWB2P6YWspXtDFHfsHvt8rc1juK2NETbnxqqQGKvDo4Nxj",
+        "dhtMultiaddr": "/ip4/177.7.52.41/tcp/8461/p2p/12D3KooWPqvbd4LEPc6DmpBMyKAaTDiu44ngJo5auXFaDLCAjkBr",
         "reality": {
           "host": "177.7.52.41",
           "port": 8445,
@@ -106,5 +106,5 @@
     "period": 20666,
     "signature": "LI1elNm0c24TlIG37BNT1qfK0haP1ueUFxEawHxb3KyuBu5RdnAZ2GuPvRSlMoXhsIB8kOqs4epkb1v9opwtAw=="
   },
-  "signature": "bR2nL4+lZSAxMgvpC5yHLDgJ8TkMZYOXzYvQFvbdBJqM1NzCS+9EI1yEY64bYm3/scY1gyoGiX7C2daOfhDmCQ=="
+  "signature": "GdVd9tIrGH1NCAIEoxdDf9/6td5NhGOlPFstZs5duHYbCFGqAQPstYu5cUjwg9lHlPKwPEpCef2sQIInTFrVCw=="
 }
