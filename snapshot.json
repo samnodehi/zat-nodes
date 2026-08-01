@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-08-01T09:55:00.017Z",
+  "generated_at": "2026-08-01T10:00:00.039Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -53,23 +53,8 @@
     "thresholdN": 3,
     "shards": [
       {
-        "httpEndpoint": "141.136.42.96:8460",
-        "dhtMultiaddr": "/ip4/141.136.42.96/tcp/8461/p2p/12D3KooWNxDgAyNbKUsUjLUSNUhVWTs46whq8bM1HK2qr918KquU",
-        "reality": {
-          "host": "141.136.42.96",
-          "port": 8445,
-          "uuid": "61b82be3-2770-4ff7-9fb7-5e79bfbfd79f",
-          "publicKey": "y2bBMBBjkxHdpFCecVDOqovWAKUplf6opF7s7n-C83w",
-          "shortId": "253e3e3ae344807c",
-          "serverName": "www.cloudflare.com",
-          "fingerprint": "chrome"
-        },
-        "shardPort": 8460,
-        "committeeId": 2
-      },
-      {
         "httpEndpoint": "167.233.141.164:8460",
-        "dhtMultiaddr": "/ip4/167.233.141.164/tcp/8461/p2p/12D3KooWAE5BXqFAaMi9UiyuUpMgvFB7Ae6ed58Gbj66TUX6JNfB",
+        "dhtMultiaddr": "/ip4/167.233.141.164/tcp/8461/p2p/12D3KooWFw34cTAP6nuUoNHLUhYmqPyV4Y7g94Y5DGtRc2bNWDz2",
         "reality": {
           "host": "167.233.141.164",
           "port": 8445,
@@ -79,12 +64,25 @@
           "serverName": "www.cloudflare.com",
           "fingerprint": "chrome"
         },
-        "shardPort": 8460,
-        "committeeId": 3
+        "shardPort": 8460
+      },
+      {
+        "httpEndpoint": "141.136.42.96:8460",
+        "dhtMultiaddr": "/ip4/141.136.42.96/tcp/8461/p2p/12D3KooWFQ1jzSeFhPMGpkacUKCJ4EA1zw6kQwS6VQ3UxjNUjMjc",
+        "reality": {
+          "host": "141.136.42.96",
+          "port": 8445,
+          "uuid": "61b82be3-2770-4ff7-9fb7-5e79bfbfd79f",
+          "publicKey": "y2bBMBBjkxHdpFCecVDOqovWAKUplf6opF7s7n-C83w",
+          "shortId": "253e3e3ae344807c",
+          "serverName": "www.cloudflare.com",
+          "fingerprint": "chrome"
+        },
+        "shardPort": 8460
       },
       {
         "httpEndpoint": "177.7.52.41:8460",
-        "dhtMultiaddr": "/ip4/177.7.52.41/tcp/8461/p2p/12D3KooWKjgWr5Sibdxm7LSnSV2bbv484gXsiQnCnjfAMHZdUbmm",
+        "dhtMultiaddr": "/ip4/177.7.52.41/tcp/8461/p2p/12D3KooWQmu5eCGqUfXHdiwaCFWe82UKHvgbixzEShokGGiSKYsa",
         "reality": {
           "host": "177.7.52.41",
           "port": 8445,
@@ -94,8 +92,7 @@
           "serverName": "www.cloudflare.com",
           "fingerprint": "chrome"
         },
-        "shardPort": 8460,
-        "committeeId": 1
+        "shardPort": 8460
       }
     ]
   },
@@ -103,5 +100,5 @@
     "period": 20666,
     "signature": "wDHPYSG9EUPqedLXkpil8etXmJ7t7D53NLOHK6DyQZ0kaCkN+EXUHSlGqKtQQo0wPHNzZHPTyc2ls75kycz0Ag=="
   },
-  "signature": "c4fSic/c5bFu3j8kyx2EOTnFMEyCcqR3jHZH8dwlCtgqVhdhCqP5Ty5F/lWybuVOwIRmgGqU8Emiy7FjqGM0DA=="
+  "signature": "xmps5kGvEjQpsFym36RFeoDEod8pRU8o4WU6MX45yLQPxDK/WiXC3J1XxdTQdGuNwI2QpuhMRPSyqT7oAkuDBw=="
 }
