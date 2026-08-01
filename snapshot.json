@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-08-01T11:40:00.053Z",
+  "generated_at": "2026-08-01T11:45:00.015Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -94,7 +94,8 @@
           "serverName": "www.cloudflare.com",
           "fingerprint": "chrome"
         },
-        "shardPort": 8460
+        "shardPort": 8460,
+        "committeeId": 3
       }
     ]
   },
@@ -102,5 +103,5 @@
     "period": 20666,
     "signature": "wDHPYSG9EUPqedLXkpil8etXmJ7t7D53NLOHK6DyQZ0kaCkN+EXUHSlGqKtQQo0wPHNzZHPTyc2ls75kycz0Ag=="
   },
-  "signature": "E6/mlN6oUaLJ+qMfIK2bCHwEia0m6tZ587DhCl8XcPH1QYq0aYHJGxfkFcPRIXNDU+Z4GTy7vk3kLDNiHTQ5Ag=="
+  "signature": "bPQQEY1F9rr77PL5HF+6BgHUTeK6q1N9wjRE2slzQk0IQfoN5dNEYBJmmOJ7xAylXmt+/TQvDL+XZXmAgYMBCg=="
 }
