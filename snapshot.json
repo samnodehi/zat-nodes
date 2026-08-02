@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-08-02T14:05:00.017Z",
+  "generated_at": "2026-08-02T14:07:01.012Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -59,14 +59,14 @@
     "thresholdN": 3,
     "shards": [
       {
-        "httpEndpoint": "167.233.141.164:8460",
-        "dhtMultiaddr": "/ip4/167.233.141.164/tcp/8461/p2p/12D3KooWMzW4SFnNzXFp3Junt5MomrBRG9qvAn3r3rZ7DtF1rzzS",
+        "httpEndpoint": "177.7.52.41:8460",
+        "dhtMultiaddr": "/ip4/177.7.52.41/tcp/8461/p2p/12D3KooWFntSv3ARxK8v8hqesLkR6skEKS37uVcPCQVbB99wa3uc",
         "reality": {
-          "host": "167.233.141.164",
+          "host": "177.7.52.41",
           "port": 8445,
-          "uuid": "f0378639-98cf-4ddd-b1fa-ab9c259b5250",
-          "publicKey": "GE6rsoNAnCK-mqV8_eqCY_j0Gi2idoWDod8UH-Pndik",
-          "shortId": "97443cce09111f39",
+          "uuid": "f98bebe1-7559-4be3-abd8-1e29f9a9a136",
+          "publicKey": "nd5N7XYazhiAmlWZcfy1slooGrmnBE6KQn6GQlbdlxw",
+          "shortId": "49bcef6426abdcae",
           "serverName": "www.cloudflare.com",
           "fingerprint": "chrome"
         },
@@ -87,14 +87,14 @@
         "shardPort": 8460
       },
       {
-        "httpEndpoint": "177.7.52.41:8460",
-        "dhtMultiaddr": "/ip4/177.7.52.41/tcp/8461/p2p/12D3KooWFntSv3ARxK8v8hqesLkR6skEKS37uVcPCQVbB99wa3uc",
+        "httpEndpoint": "167.233.141.164:8460",
+        "dhtMultiaddr": "/ip4/167.233.141.164/tcp/8461/p2p/12D3KooWMzW4SFnNzXFp3Junt5MomrBRG9qvAn3r3rZ7DtF1rzzS",
         "reality": {
-          "host": "177.7.52.41",
+          "host": "167.233.141.164",
           "port": 8445,
-          "uuid": "f98bebe1-7559-4be3-abd8-1e29f9a9a136",
-          "publicKey": "nd5N7XYazhiAmlWZcfy1slooGrmnBE6KQn6GQlbdlxw",
-          "shortId": "49bcef6426abdcae",
+          "uuid": "f0378639-98cf-4ddd-b1fa-ab9c259b5250",
+          "publicKey": "GE6rsoNAnCK-mqV8_eqCY_j0Gi2idoWDod8UH-Pndik",
+          "shortId": "97443cce09111f39",
           "serverName": "www.cloudflare.com",
           "fingerprint": "chrome"
         },
@@ -102,9 +102,5 @@
       }
     ]
   },
-  "committee_rank_beacon": {
-    "period": 20667,
-    "signature": "zUlT6MBzPXEhKajUmHMN8KHeqoAPVTAymbU/PY1ED5hyPUfnivn7mBwX7PFyYCiVcwcnJepiZaS3tYvqaPaWAw=="
-  },
-  "signature": "2TNDq+LctRFYsus8fERGzAyPckzGKH+TgrpBTw2DUIy0iBZvARyKWhp2u/32esKIGO4Jlnif/NEjt0WScyQCCg=="
+  "signature": "bMWhnNim7O6NXIiR6zDRDROEHbB/udN1tK/M+lI6YOWgyMOmZlhh4HLg2GzyFct8MyVpZekaPxdbSR71yMUvBw=="
 }
