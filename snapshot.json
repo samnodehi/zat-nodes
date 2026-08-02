@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-08-02T19:25:00.014Z",
+  "generated_at": "2026-08-02T19:30:00.051Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -70,7 +70,8 @@
           "serverName": "www.cloudflare.com",
           "fingerprint": "chrome"
         },
-        "shardPort": 8460
+        "shardPort": 8460,
+        "committeeId": 3
       },
       {
         "httpEndpoint": "177.7.52.41:8460",
@@ -84,7 +85,8 @@
           "serverName": "www.cloudflare.com",
           "fingerprint": "chrome"
         },
-        "shardPort": 8460
+        "shardPort": 8460,
+        "committeeId": 1
       },
       {
         "httpEndpoint": "141.136.42.96:8460",
@@ -98,7 +100,8 @@
           "serverName": "www.cloudflare.com",
           "fingerprint": "chrome"
         },
-        "shardPort": 8460
+        "shardPort": 8460,
+        "committeeId": 2
       }
     ]
   },
@@ -106,5 +109,5 @@
     "period": 20667,
     "signature": "mZie9HitFQvM6Fyf0WOjxEZdoi/0rPae4IsCftGZ8Y4tsuHOl40/znr4iwpvcPnZAM5itFnewHZwoTDyHPnNAQ=="
   },
-  "signature": "j0i3a3aK0+j23vGl32m/HD5pcU8bdePXzLK/zymQgJPdGChK2P8L6X7xGWycOIsbjUbaTI5mrfkqIbi8R1MSCQ=="
+  "signature": "NnrQwa1ihPhD+brcTqeuuX/88tpDeW8DJhByURXGUaFXJWr9qBkZUJQzGQd4yvZyM8Nx58x09onEoM1msi8+CA=="
 }
