@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-08-02T14:10:00.054Z",
+  "generated_at": "2026-08-02T14:15:48.203Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -59,6 +59,20 @@
     "thresholdN": 3,
     "shards": [
       {
+        "httpEndpoint": "167.233.141.164:8460",
+        "dhtMultiaddr": "/ip4/167.233.141.164/tcp/8461/p2p/12D3KooWMzW4SFnNzXFp3Junt5MomrBRG9qvAn3r3rZ7DtF1rzzS",
+        "reality": {
+          "host": "167.233.141.164",
+          "port": 8445,
+          "uuid": "f0378639-98cf-4ddd-b1fa-ab9c259b5250",
+          "publicKey": "GE6rsoNAnCK-mqV8_eqCY_j0Gi2idoWDod8UH-Pndik",
+          "shortId": "97443cce09111f39",
+          "serverName": "www.cloudflare.com",
+          "fingerprint": "chrome"
+        },
+        "shardPort": 8460
+      },
+      {
         "httpEndpoint": "177.7.52.41:8460",
         "dhtMultiaddr": "/ip4/177.7.52.41/tcp/8461/p2p/12D3KooWFntSv3ARxK8v8hqesLkR6skEKS37uVcPCQVbB99wa3uc",
         "reality": {
@@ -85,26 +99,12 @@
           "fingerprint": "chrome"
         },
         "shardPort": 8460
-      },
-      {
-        "httpEndpoint": "167.233.141.164:8460",
-        "dhtMultiaddr": "/ip4/167.233.141.164/tcp/8461/p2p/12D3KooWMzW4SFnNzXFp3Junt5MomrBRG9qvAn3r3rZ7DtF1rzzS",
-        "reality": {
-          "host": "167.233.141.164",
-          "port": 8445,
-          "uuid": "f0378639-98cf-4ddd-b1fa-ab9c259b5250",
-          "publicKey": "GE6rsoNAnCK-mqV8_eqCY_j0Gi2idoWDod8UH-Pndik",
-          "shortId": "97443cce09111f39",
-          "serverName": "www.cloudflare.com",
-          "fingerprint": "chrome"
-        },
-        "shardPort": 8460
       }
     ]
   },
   "committee_rank_beacon": {
     "period": 20667,
-    "signature": "VTvdNNFxy3gRr/GqIjRnWTW0StTti0KXouP3qdp07V7En1IWQbje7UjIgUrSU3aojKRLGGpJ5vfBEYFgWvg0CQ=="
+    "signature": "mZie9HitFQvM6Fyf0WOjxEZdoi/0rPae4IsCftGZ8Y4tsuHOl40/znr4iwpvcPnZAM5itFnewHZwoTDyHPnNAQ=="
   },
-  "signature": "rZCK5GBV4L+1UviJ4BMrpKMXXYuLybuX2j4bzEzyScr8E30ncmIGkwuACjBiOkvc4013Stsm4kfG0AXWnZcACQ=="
+  "signature": "DS5a7MgwudtlFQ9WamUAkoaJU+9VIw5ETy+Y432Z2ziuTUAYQOlpNaxndT4EbpoU3w8IrQsm6imcgDA58EUXCw=="
 }
