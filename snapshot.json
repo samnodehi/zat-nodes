@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-08-09T14:15:00.014Z",
+  "generated_at": "2026-08-09T14:19:21.251Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -51,7 +51,7 @@
   "mesh_entry": {
     "suite": "ristretto255-SHA512",
     "publicKey": "Ri4ulckvcYH6yphH3Ry7kQAWOoo2Mqu21QNRa4ZIqBQ=",
-    "N": 64,
+    "N": 16,
     "r": 4,
     "s": 8,
     "epochMs": 3600000,
@@ -70,23 +70,7 @@
           "serverName": "www.cloudflare.com",
           "fingerprint": "chrome"
         },
-        "shardPort": 8460,
-        "committeeId": 3
-      },
-      {
-        "httpEndpoint": "167.233.141.164:8460",
-        "dhtMultiaddr": "/ip4/167.233.141.164/tcp/8461/p2p/12D3KooWMk6jfPJJQCTUq412PP7x5Xofn6RUDT7YPYzR7GbARDQS",
-        "reality": {
-          "host": "167.233.141.164",
-          "port": 8445,
-          "uuid": "f0378639-98cf-4ddd-b1fa-ab9c259b5250",
-          "publicKey": "GE6rsoNAnCK-mqV8_eqCY_j0Gi2idoWDod8UH-Pndik",
-          "shortId": "97443cce09111f39",
-          "serverName": "www.cloudflare.com",
-          "fingerprint": "chrome"
-        },
-        "shardPort": 8460,
-        "committeeId": 1
+        "shardPort": 8460
       },
       {
         "httpEndpoint": "141.136.42.96:8460",
@@ -100,14 +84,27 @@
           "serverName": "www.cloudflare.com",
           "fingerprint": "chrome"
         },
-        "shardPort": 8460,
-        "committeeId": 2
+        "shardPort": 8460
+      },
+      {
+        "httpEndpoint": "167.233.141.164:8460",
+        "dhtMultiaddr": "/ip4/167.233.141.164/tcp/8461/p2p/12D3KooWMk6jfPJJQCTUq412PP7x5Xofn6RUDT7YPYzR7GbARDQS",
+        "reality": {
+          "host": "167.233.141.164",
+          "port": 8445,
+          "uuid": "f0378639-98cf-4ddd-b1fa-ab9c259b5250",
+          "publicKey": "GE6rsoNAnCK-mqV8_eqCY_j0Gi2idoWDod8UH-Pndik",
+          "shortId": "97443cce09111f39",
+          "serverName": "www.cloudflare.com",
+          "fingerprint": "chrome"
+        },
+        "shardPort": 8460
       }
     ]
   },
   "committee_rank_beacon": {
     "period": 20674,
-    "signature": "dTWRdH9a7mz/lOiMCO/9E/sTNTJeb30+7VVS2s9ZuYYmKJrwRdzdLTTd0woAuc69QX0bIrEtvkAAxFNkbri3Cw=="
+    "signature": "26/M5Y2dnZ552KA8wSMeqwNGko02rhgY3UuK6x2pzbwHc7+J0Bq5i02/g9gVT5/VX5nJNSqfKoar8aJLY+eZCg=="
   },
-  "signature": "ppn79O3to2t8+VcZx8xn2ePSrNvdvAkmynFzJTSGQKwJZT8UnfYbL/I1INihISnxMc03h+hWT6lzYsVmirM5AQ=="
+  "signature": "59q0nF7LCo+Z5YKknM7fsouKTMI1ioMuJaYTMEQbFRiyDKj3j7KizzScR5UzZVB2bkjYDxf8adAQhwKeOPTsDQ=="
 }
