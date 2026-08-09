@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-08-09T14:25:00.738Z",
+  "generated_at": "2026-08-09T14:30:00.058Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -59,22 +59,8 @@
     "thresholdN": 3,
     "shards": [
       {
-        "httpEndpoint": "177.7.52.41:8460",
-        "dhtMultiaddr": "/ip4/177.7.52.41/tcp/8461/p2p/12D3KooWGfiQfVcgXpNcRbsVYNC7TZQaY7HrGGqwymqCoKw8E8gV",
-        "reality": {
-          "host": "177.7.52.41",
-          "port": 8445,
-          "uuid": "f98bebe1-7559-4be3-abd8-1e29f9a9a136",
-          "publicKey": "nd5N7XYazhiAmlWZcfy1slooGrmnBE6KQn6GQlbdlxw",
-          "shortId": "49bcef6426abdcae",
-          "serverName": "www.cloudflare.com",
-          "fingerprint": "chrome"
-        },
-        "shardPort": 8460
-      },
-      {
         "httpEndpoint": "141.136.42.96:8460",
-        "dhtMultiaddr": "/ip4/141.136.42.96/tcp/8461/p2p/12D3KooWP4jZ56B1xhA1fvEahiBmxssnLWR1SWiPBdDPhgEoG2HT",
+        "dhtMultiaddr": "/ip4/141.136.42.96/tcp/8461/p2p/12D3KooWPgkV25RXD463ugFdoyVKFQTDAFMkCXXdQiHahXT94C1r",
         "reality": {
           "host": "141.136.42.96",
           "port": 8445,
@@ -87,8 +73,22 @@
         "shardPort": 8460
       },
       {
+        "httpEndpoint": "177.7.52.41:8460",
+        "dhtMultiaddr": "/ip4/177.7.52.41/tcp/8461/p2p/12D3KooWAavqvr4AoPabxFD58MWwFSpCLqJQaEx2anSDt44DANvk",
+        "reality": {
+          "host": "177.7.52.41",
+          "port": 8445,
+          "uuid": "f98bebe1-7559-4be3-abd8-1e29f9a9a136",
+          "publicKey": "nd5N7XYazhiAmlWZcfy1slooGrmnBE6KQn6GQlbdlxw",
+          "shortId": "49bcef6426abdcae",
+          "serverName": "www.cloudflare.com",
+          "fingerprint": "chrome"
+        },
+        "shardPort": 8460
+      },
+      {
         "httpEndpoint": "167.233.141.164:8460",
-        "dhtMultiaddr": "/ip4/167.233.141.164/tcp/8461/p2p/12D3KooWFGpXJPrf8sdkzkpq8jqSPFdpWbkzrJwTNpB6BJYDi7TD",
+        "dhtMultiaddr": "/ip4/167.233.141.164/tcp/8461/p2p/12D3KooWSMNhFzmuxBuWmBsTjZxrhksrGbKbBQkC9uQTkYpiMsrv",
         "reality": {
           "host": "167.233.141.164",
           "port": 8445,
@@ -102,5 +102,9 @@
       }
     ]
   },
-  "signature": "uDm7o+GNmHgG7w8YA8DnaMf2mUgmHtfFmB2rrsH5LoFRKMi8bOzqDrYUH3CPVxE1jrgRUnI0BZyjrsbGY3YhDA=="
+  "committee_rank_beacon": {
+    "period": 20674,
+    "signature": "hA0/6dVyEzCU3EsbUWbqs+9rXhmHalujAHWr8DIUHTHA560p0WnA5CBnNnCAYewhEhheQJokKJcbA5IsnQzwBQ=="
+  },
+  "signature": "wZ36BSh/8JR6rex1kLFMKi8mye9p5I9GFiObkhveQcrd3lw0p/HSV3NgYRh3Y6RKDE5deznafxJfBE2EP6lGAA=="
 }
