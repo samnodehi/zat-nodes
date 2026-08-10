@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-08-10T18:55:00.032Z",
+  "generated_at": "2026-08-10T19:00:00.057Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -51,7 +51,7 @@
   "mesh_entry": {
     "suite": "ristretto255-SHA512",
     "publicKey": "Ri4ulckvcYH6yphH3Ry7kQAWOoo2Mqu21QNRa4ZIqBQ=",
-    "N": 32,
+    "N": 64,
     "r": 4,
     "s": 8,
     "epochMs": 3600000,
@@ -109,5 +109,5 @@
     "period": 20675,
     "signature": "OQuJ7Hzq6OOI04qtp8Ydibo0ltqwN5f22ml57HenWrGWqS2yI3/MGx55s4FrCGyDsPxCfS125LtT3DmFS10+Cw=="
   },
-  "signature": "4KOgZBZDigxdA1wo+SAOQsP46aTEIgwr0NeXWldaFjNpNbzgBbBNE7jz/V986xmhyvy1YkKOakrr74KzdSiDCA=="
+  "signature": "nGLuHvUqk4ZYNYuiKGypXPusy6Gklbaz60qhBt01kKRfEWUMTFzoSET3CihgEyS6mERo0505M0SAwxKdOtk6DQ=="
 }
