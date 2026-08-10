@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-08-10T17:20:00.042Z",
+  "generated_at": "2026-08-10T17:25:00.017Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -17,9 +17,7 @@
       "country_short": "FI",
       "country_long": "Finland",
       "quality_score": 1,
-      "attested_by": [
-        "CIQyrNDjNlmCAf7XJQqy/uniRdJFt/+edez4NJHGjrw="
-      ]
+      "attested_by": []
     }
   ],
   "introducer_url": "https://zat.samnodehi.cloud",
@@ -34,9 +32,7 @@
       "server_name": "www.cloudflare.com",
       "fingerprint": "chrome",
       "flow": "",
-      "attested_by": [
-        "CIQyrNDjNlmCAf7XJQqy/uniRdJFt/+edez4NJHGjrw="
-      ]
+      "attested_by": []
     }
   ],
   "rotation_policy": {
@@ -72,20 +68,6 @@
         },
         "shardPort": 8460,
         "committeeId": 1
-      },
-      {
-        "httpEndpoint": "167.233.141.164:8460",
-        "dhtMultiaddr": "/ip4/167.233.141.164/tcp/8461/p2p/12D3KooWSmFJeqS8tt9MfuBwpNupQyx8ho9ddNk8b3TKLynC6cUK",
-        "reality": {
-          "host": "167.233.141.164",
-          "port": 8445,
-          "uuid": "f0378639-98cf-4ddd-b1fa-ab9c259b5250",
-          "publicKey": "GE6rsoNAnCK-mqV8_eqCY_j0Gi2idoWDod8UH-Pndik",
-          "shortId": "97443cce09111f39",
-          "serverName": "www.cloudflare.com",
-          "fingerprint": "chrome"
-        },
-        "shardPort": 8460
       }
     ]
   },
@@ -93,5 +75,5 @@
     "period": 20675,
     "signature": "Jl4KkXVoevBZY9/wmYnhDHtAizsgZgSSM6SHb6GwO5AacAKZ3hmWjDrDXc3YSZKP1m3YeOpJarHNFyWSyi3HAg=="
   },
-  "signature": "7kf4uMP2Ns0+AtI2TpKf/OeFg6MKSetTs+58TU7kX+nqlmMaPQLC+c1Aqe2AasyxRNpmpja04UNLCy6Q6SAxCg=="
+  "signature": "lW2mVeSopQBSBAs8hFDL6nN8/jffCzEvLoXQzWg1m3tLrcwSRacnvwbaPHM6Jx0HRxytepi1cfY18U2cRAloBw=="
 }
