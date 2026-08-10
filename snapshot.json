@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-08-10T22:00:00.036Z",
+  "generated_at": "2026-08-10T22:05:00.017Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -59,6 +59,21 @@
     "thresholdN": 3,
     "shards": [
       {
+        "httpEndpoint": "177.7.52.41:8460",
+        "dhtMultiaddr": "/ip4/177.7.52.41/tcp/8461/p2p/12D3KooWJvGe4RKN1qV1a5Ktt49WHbkz4w43kYkV6sDv7kupsbSk",
+        "reality": {
+          "host": "177.7.52.41",
+          "port": 8445,
+          "uuid": "f98bebe1-7559-4be3-abd8-1e29f9a9a136",
+          "publicKey": "nd5N7XYazhiAmlWZcfy1slooGrmnBE6KQn6GQlbdlxw",
+          "shortId": "49bcef6426abdcae",
+          "serverName": "www.cloudflare.com",
+          "fingerprint": "chrome"
+        },
+        "shardPort": 8460,
+        "committeeId": 1
+      },
+      {
         "httpEndpoint": "141.136.42.96:8460",
         "dhtMultiaddr": "/ip4/141.136.42.96/tcp/8461/p2p/12D3KooWH7YymZ4Yu1dFuhK5eA2EwtAQ2Qfxs3mHzAPf2ELNAigS",
         "reality": {
@@ -70,8 +85,7 @@
           "serverName": "www.cloudflare.com",
           "fingerprint": "chrome"
         },
-        "shardPort": 8460,
-        "committeeId": 1
+        "shardPort": 8460
       },
       {
         "httpEndpoint": "167.233.141.164:8460",
@@ -85,23 +99,7 @@
           "serverName": "www.cloudflare.com",
           "fingerprint": "chrome"
         },
-        "shardPort": 8460,
-        "committeeId": 3
-      },
-      {
-        "httpEndpoint": "177.7.52.41:8460",
-        "dhtMultiaddr": "/ip4/177.7.52.41/tcp/8461/p2p/12D3KooWJvGe4RKN1qV1a5Ktt49WHbkz4w43kYkV6sDv7kupsbSk",
-        "reality": {
-          "host": "177.7.52.41",
-          "port": 8445,
-          "uuid": "f98bebe1-7559-4be3-abd8-1e29f9a9a136",
-          "publicKey": "nd5N7XYazhiAmlWZcfy1slooGrmnBE6KQn6GQlbdlxw",
-          "shortId": "49bcef6426abdcae",
-          "serverName": "www.cloudflare.com",
-          "fingerprint": "chrome"
-        },
-        "shardPort": 8460,
-        "committeeId": 2
+        "shardPort": 8460
       }
     ]
   },
@@ -109,5 +107,5 @@
     "period": 20675,
     "signature": "OQuJ7Hzq6OOI04qtp8Ydibo0ltqwN5f22ml57HenWrGWqS2yI3/MGx55s4FrCGyDsPxCfS125LtT3DmFS10+Cw=="
   },
-  "signature": "Zurr43S+XEX5+e+ILou80ffo+itUizhvL76/aejKNIXGzM0YWw8+Lrot5dDMGAkwnuKcd8ovq+jZIbxHb4e/BQ=="
+  "signature": "rttppkESludFg0FWPo2fhA3Onngup3qgYH8xVUKhMYwxfjvDNXCLgH4rz6WiV+qK25qlL2HHuCA+dfHr5vDZAQ=="
 }
