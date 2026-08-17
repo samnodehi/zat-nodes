@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-08-17T20:20:00.058Z",
+  "generated_at": "2026-08-17T20:35:00.017Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -74,21 +74,6 @@
         "committeeId": 2
       },
       {
-        "httpEndpoint": "167.233.141.164:8460",
-        "dhtMultiaddr": "/ip4/167.233.141.164/tcp/8461/p2p/12D3KooWSmFJeqS8tt9MfuBwpNupQyx8ho9ddNk8b3TKLynC6cUK",
-        "reality": {
-          "host": "167.233.141.164",
-          "port": 8445,
-          "uuid": "f0378639-98cf-4ddd-b1fa-ab9c259b5250",
-          "publicKey": "GE6rsoNAnCK-mqV8_eqCY_j0Gi2idoWDod8UH-Pndik",
-          "shortId": "97443cce09111f39",
-          "serverName": "www.cloudflare.com",
-          "fingerprint": "chrome"
-        },
-        "shardPort": 8460,
-        "committeeId": 3
-      },
-      {
         "httpEndpoint": "141.136.42.96:8460",
         "dhtMultiaddr": "/ip4/141.136.42.96/tcp/8461/p2p/12D3KooWH7YymZ4Yu1dFuhK5eA2EwtAQ2Qfxs3mHzAPf2ELNAigS",
         "reality": {
@@ -102,6 +87,21 @@
         },
         "shardPort": 8460,
         "committeeId": 1
+      },
+      {
+        "httpEndpoint": "167.233.141.164:8460",
+        "dhtMultiaddr": "/ip4/167.233.141.164/tcp/8461/p2p/12D3KooWSmFJeqS8tt9MfuBwpNupQyx8ho9ddNk8b3TKLynC6cUK",
+        "reality": {
+          "host": "167.233.141.164",
+          "port": 8445,
+          "uuid": "f0378639-98cf-4ddd-b1fa-ab9c259b5250",
+          "publicKey": "GE6rsoNAnCK-mqV8_eqCY_j0Gi2idoWDod8UH-Pndik",
+          "shortId": "97443cce09111f39",
+          "serverName": "www.cloudflare.com",
+          "fingerprint": "chrome"
+        },
+        "shardPort": 8460,
+        "committeeId": 3
       }
     ]
   },
@@ -109,5 +109,5 @@
     "period": 20682,
     "signature": "NfhuPrkRynZwIFxFrkivCqoGd+vmH8GF6YBrhtWiBbX/+FXaamFdiRohwNEuI6wOvNyBm5jnS5bArcz4HcDZAw=="
   },
-  "signature": "3xRnn0g6Z0djmb74/OBBkToA3Cml8OsdIP1POkIYmGDznXkMXv+jn5oHlx1Q2Gromn+Z0beQ6chsgJN49RNCDA=="
+  "signature": "KKF65mymUKIEI36N59mY+Xc6mPpJzg3y9cLcIN7cc+Ctowl4DnpI4N8Yqi9vZpXEgfyS9IQ0PJSjVXwhX7zfDw=="
 }
