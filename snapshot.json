@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-08-24T07:40:00.040Z",
+  "generated_at": "2026-08-24T07:45:00.013Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -17,9 +17,7 @@
       "country_short": "FI",
       "country_long": "Finland",
       "quality_score": 1,
-      "attested_by": [
-        "CIQyrNDjNlmCAf7XJQqy/uniRdJFt/+edez4NJHGjrw="
-      ]
+      "attested_by": []
     }
   ],
   "introducer_url": "https://zat.samnodehi.cloud",
@@ -34,9 +32,7 @@
       "server_name": "www.cloudflare.com",
       "fingerprint": "chrome",
       "flow": "",
-      "attested_by": [
-        "CIQyrNDjNlmCAf7XJQqy/uniRdJFt/+edez4NJHGjrw="
-      ]
+      "attested_by": []
     }
   ],
   "rotation_policy": {
@@ -71,7 +67,7 @@
           "fingerprint": "chrome"
         },
         "shardPort": 8460,
-        "committeeId": 3
+        "committeeId": 2
       },
       {
         "httpEndpoint": "141.136.42.96:8460",
@@ -86,21 +82,6 @@
           "fingerprint": "chrome"
         },
         "shardPort": 8460,
-        "committeeId": 2
-      },
-      {
-        "httpEndpoint": "167.233.141.164:8460",
-        "dhtMultiaddr": "/ip4/167.233.141.164/tcp/8461/p2p/12D3KooWSmFJeqS8tt9MfuBwpNupQyx8ho9ddNk8b3TKLynC6cUK",
-        "reality": {
-          "host": "167.233.141.164",
-          "port": 8445,
-          "uuid": "f0378639-98cf-4ddd-b1fa-ab9c259b5250",
-          "publicKey": "GE6rsoNAnCK-mqV8_eqCY_j0Gi2idoWDod8UH-Pndik",
-          "shortId": "97443cce09111f39",
-          "serverName": "www.cloudflare.com",
-          "fingerprint": "chrome"
-        },
-        "shardPort": 8460,
         "committeeId": 1
       }
     ]
@@ -109,5 +90,5 @@
     "period": 20689,
     "signature": "QyFng7pG19XQ9AsWblEcuf6qzrdBb+d0YOfMux6cRENlAh9LDrE0cqFv2nafDizl6EK8oUdPwcGJaHQKtGdmBw=="
   },
-  "signature": "F0QAgozVFvAfbKlXtdabY6YZTqEW021LepC1o+1jPf0KjE8pyxnVsxcGv0phNUgABSN19GDFIxugGi/lGz0yCQ=="
+  "signature": "8vh6rtos709qZRjePm1J65tudEETk/Am0gfZLufQ/jfz08Gy2DtVTXb13aK/s+SsznUGPkQGRFC4HQkG+xZFBg=="
 }
