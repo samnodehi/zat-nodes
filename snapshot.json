@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-08-24T08:15:00.014Z",
+  "generated_at": "2026-08-24T08:25:00.013Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -17,9 +17,7 @@
       "country_short": "FI",
       "country_long": "Finland",
       "quality_score": 1,
-      "attested_by": [
-        "CIQyrNDjNlmCAf7XJQqy/uniRdJFt/+edez4NJHGjrw="
-      ]
+      "attested_by": []
     }
   ],
   "introducer_url": "https://zat.samnodehi.cloud",
@@ -108,5 +106,5 @@
     "period": 20689,
     "signature": "QyFng7pG19XQ9AsWblEcuf6qzrdBb+d0YOfMux6cRENlAh9LDrE0cqFv2nafDizl6EK8oUdPwcGJaHQKtGdmBw=="
   },
-  "signature": "gUpZprCLLFtHpgCESxOElXvsRDKmzkeJ8Uk5R6guid7xW8LwJ3cocRENW95X03RMT9G9CX/XAVV7Fye415nkDA=="
+  "signature": "4uTxWB1hElLnR9Iyv3zmOR6bNRg9em9xTpET43wmlBZvYl04aJItiZon7Vejdl4q40DrCNK8Ymx28knTHIbKBQ=="
 }
