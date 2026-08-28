@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-08-28T06:50:00.036Z",
+  "generated_at": "2026-08-28T07:05:00.014Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -90,7 +90,7 @@
       },
       {
         "httpEndpoint": "167.233.141.164:8460",
-        "dhtMultiaddr": "/ip4/167.233.141.164/tcp/8461/p2p/12D3KooWSmFJeqS8tt9MfuBwpNupQyx8ho9ddNk8b3TKLynC6cUK",
+        "dhtMultiaddr": "/ip4/167.233.141.164/tcp/8461/p2p/12D3KooWGiVk9VcF6E3kePhyoBGFw19TyKwLeEU9ZRtfmzqB53Fd",
         "reality": {
           "host": "167.233.141.164",
           "port": 8445,
@@ -109,5 +109,5 @@
     "period": 20693,
     "signature": "1hXO+dzJ/0fCyBy51+5hnmNaLnYuLW/M4SrMtQztZN69B1u4CWkeJvDElY+dOMUn/BYAIb9Ft56bU7atPogfCg=="
   },
-  "signature": "oPl/ORQ0aLOVaWDRbi7H1fWqeoY9mAZyR0Ux4In0QD4VIgXEP4aiW/GZ7E2SeoXfrt3z7/Wssq/1ecTvy9k4Cg=="
+  "signature": "62HA8FjholuIICMrGllGmd061S7/qCFCJoMmHrdn/Bl6m5/dYn7UpQaFDpREYLSyngCy9FSq4+vw5auAtc8KCQ=="
 }
