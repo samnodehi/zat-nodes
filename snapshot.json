@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-09-03T18:40:00.034Z",
+  "generated_at": "2026-09-03T18:55:00.017Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -87,6 +87,21 @@
         },
         "shardPort": 8460,
         "committeeId": 1
+      },
+      {
+        "httpEndpoint": "141.136.42.96:8460",
+        "dhtMultiaddr": "/ip4/141.136.42.96/tcp/8461/p2p/12D3KooWM4PLLU56pn2SxSTd7vQQLbqM8mwK7Vkc4pERqeHuJe67",
+        "reality": {
+          "host": "141.136.42.96",
+          "port": 8445,
+          "uuid": "61b82be3-2770-4ff7-9fb7-5e79bfbfd79f",
+          "publicKey": "y2bBMBBjkxHdpFCecVDOqovWAKUplf6opF7s7n-C83w",
+          "shortId": "253e3e3ae344807c",
+          "serverName": "www.cloudflare.com",
+          "fingerprint": "chrome"
+        },
+        "shardPort": 8460,
+        "committeeId": 3
       }
     ]
   },
@@ -94,5 +109,5 @@
     "period": 20699,
     "signature": "2MGxsxnsUjTglkviWTm89c0vUXCfOI0442Ivvo9eUuuISmxEF1gHhVbP9dwjH7IEJILG6lSaeaeTB6Yi1ohkDw=="
   },
-  "signature": "1LIXsVIVFO2b+OUxjXEYsmy0V4zO1YsnBkUCD6k2uvoYZlmSNe0DpmJxUY4Aeix0OLUD6LrW4RI6g+MG8/zsCA=="
+  "signature": "6/era6qaeLBCAGllHsI4zZJ6Nf4zulIzhWFTBwYcYF4XC28rguQQu5GtxFiFoItLlwTqUXcxzZpsL5roumF4CQ=="
 }
