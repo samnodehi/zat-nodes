@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-09-17T07:45:00.018Z",
+  "generated_at": "2026-09-17T07:50:00.038Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -109,5 +109,5 @@
     "period": 20713,
     "signature": "haRgQepg15oiLnRPN/Kxz9FYiTvJUdcLP0LjYzcdhVpAsQCYgts9sF/Nmp8tlsPcHjZNvVNK1zuiTyX0HA5ICA=="
   },
-  "signature": "E8IdqKt8nYL7gUNuLICNaW5fbC/v2lZPwPiCM7RZoTUUv4pygGhW0gw08rbzGggl/bmMs4sFFG4fD6wVJapZDw=="
+  "signature": "XJNR3HAfnGXRRD55lp96yCHwWONyDju3H3JlSOS6G7lTibVCL/8ElKdYnfLU0AgMXk+RvCMVYHZjELpXEl2ZAg=="
 }
