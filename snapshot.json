@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-09-20T00:00:00.079Z",
+  "generated_at": "2026-09-20T00:15:00.016Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -59,21 +59,6 @@
     "thresholdN": 3,
     "shards": [
       {
-        "httpEndpoint": "141.136.42.96:8460",
-        "dhtMultiaddr": "/ip4/141.136.42.96/tcp/8461/p2p/12D3KooWFaGKhmSawUbfGUBCy3zzztJ8PARgnbiacvqChsYiteiC",
-        "reality": {
-          "host": "141.136.42.96",
-          "port": 8445,
-          "uuid": "61b82be3-2770-4ff7-9fb7-5e79bfbfd79f",
-          "publicKey": "y2bBMBBjkxHdpFCecVDOqovWAKUplf6opF7s7n-C83w",
-          "shortId": "253e3e3ae344807c",
-          "serverName": "www.cloudflare.com",
-          "fingerprint": "chrome"
-        },
-        "shardPort": 8460,
-        "committeeId": 2
-      },
-      {
         "httpEndpoint": "167.233.141.164:8460",
         "dhtMultiaddr": "/ip4/167.233.141.164/tcp/8461/p2p/12D3KooWHhKBM4unqRbNVArVRGRGDAcT1K2no4kRLmxBNSNPJh3j",
         "reality": {
@@ -86,7 +71,7 @@
           "fingerprint": "chrome"
         },
         "shardPort": 8460,
-        "committeeId": 1
+        "committeeId": 2
       },
       {
         "httpEndpoint": "177.7.52.41:8460",
@@ -101,13 +86,28 @@
           "fingerprint": "chrome"
         },
         "shardPort": 8460,
+        "committeeId": 1
+      },
+      {
+        "httpEndpoint": "141.136.42.96:8460",
+        "dhtMultiaddr": "/ip4/141.136.42.96/tcp/8461/p2p/12D3KooWFaGKhmSawUbfGUBCy3zzztJ8PARgnbiacvqChsYiteiC",
+        "reality": {
+          "host": "141.136.42.96",
+          "port": 8445,
+          "uuid": "61b82be3-2770-4ff7-9fb7-5e79bfbfd79f",
+          "publicKey": "y2bBMBBjkxHdpFCecVDOqovWAKUplf6opF7s7n-C83w",
+          "shortId": "253e3e3ae344807c",
+          "serverName": "www.cloudflare.com",
+          "fingerprint": "chrome"
+        },
+        "shardPort": 8460,
         "committeeId": 3
       }
     ]
   },
   "committee_rank_beacon": {
-    "period": 20715,
-    "signature": "iuI27nBaBJ1QiPFbjtNQGC6ZGLPiJPiWTLdHxzSHOBja/X0uffCbSnPxqV2Rb7ny+sFPIPug4ZxaZR0ZbV/iBg=="
+    "period": 20716,
+    "signature": "z6isH1k43Pxz0mXKOHezp9e/oeHzXBFOHZROEPQxDLVBpBiSMt+HKCF0yhlXnAoks3OigH2Kmof62jEmKlTOAQ=="
   },
-  "signature": "up+tSN8YCxN8D8l7gqztoo3vaP72bSTGjuIybdx3Jq3AwCn0rSTUoiVTCE/hMWZRFJC7wWNKT8v4jjUXdMXMDA=="
+  "signature": "WrvNIbiLj8in+NPRmZhNUrhkNp+b6Y5RgqdAXsmHH70RAww9dpR3sdmuTKVcKCYQAXjo7Wg1zbSh3cr1KZ7VDQ=="
 }
