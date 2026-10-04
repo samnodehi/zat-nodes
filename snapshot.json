@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-10-04T17:20:00.052Z",
+  "generated_at": "2026-10-04T17:35:00.019Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -74,21 +74,6 @@
         "committeeId": 3
       },
       {
-        "httpEndpoint": "177.7.52.41:8460",
-        "dhtMultiaddr": "/ip4/177.7.52.41/tcp/8461/p2p/12D3KooWPL3BGX1YtiXmTpk51TNcQaAT3VSU21bkNUtnJQqY9DPh",
-        "reality": {
-          "host": "177.7.52.41",
-          "port": 8445,
-          "uuid": "f98bebe1-7559-4be3-abd8-1e29f9a9a136",
-          "publicKey": "nd5N7XYazhiAmlWZcfy1slooGrmnBE6KQn6GQlbdlxw",
-          "shortId": "49bcef6426abdcae",
-          "serverName": "www.cloudflare.com",
-          "fingerprint": "chrome"
-        },
-        "shardPort": 8460,
-        "committeeId": 1
-      },
-      {
         "httpEndpoint": "167.233.141.164:8460",
         "dhtMultiaddr": "/ip4/167.233.141.164/tcp/8461/p2p/12D3KooWD1V5pxhXYscJ9qrYKLTBASivVdpBguChJa1WDLPGTm8E",
         "reality": {
@@ -102,6 +87,21 @@
         },
         "shardPort": 8460,
         "committeeId": 2
+      },
+      {
+        "httpEndpoint": "177.7.52.41:8460",
+        "dhtMultiaddr": "/ip4/177.7.52.41/tcp/8461/p2p/12D3KooWPL3BGX1YtiXmTpk51TNcQaAT3VSU21bkNUtnJQqY9DPh",
+        "reality": {
+          "host": "177.7.52.41",
+          "port": 8445,
+          "uuid": "f98bebe1-7559-4be3-abd8-1e29f9a9a136",
+          "publicKey": "nd5N7XYazhiAmlWZcfy1slooGrmnBE6KQn6GQlbdlxw",
+          "shortId": "49bcef6426abdcae",
+          "serverName": "www.cloudflare.com",
+          "fingerprint": "chrome"
+        },
+        "shardPort": 8460,
+        "committeeId": 1
       }
     ]
   },
@@ -109,5 +109,5 @@
     "period": 20730,
     "signature": "wuEtpf0gg6tHtbs0rWJvFI8ZbTUfxJmpK2TSf55l+bZU7eFHXPlOufZIWfTiHU0770UCAnnO2RTBaRlziGkBCg=="
   },
-  "signature": "WQXF2glr5aQGuhRBNsjyTsRuLbQy0dhgW1b+DmFb7d5hcYNpoNxF60lutsnAkDqOthE6n9QJumVmzzKHSsI6BA=="
+  "signature": "5mPwmulkXgIyvLx+rPJal2Wf/DUEv0CzgSReR25ofu+PType4f4fR74DlqN4gZ041iOwnN/bIuuU/AA2U7+RBw=="
 }
