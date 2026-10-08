@@ -1,44 +1,11 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-10-08T15:20:00.046Z",
+  "generated_at": "2026-10-08T15:25:00.016Z",
   "ttl_seconds": 600,
-  "reality_servers": [
-    {
-      "id": "exit-fsn1",
-      "address": "167.233.141.164",
-      "port": 8444,
-      "uuid": "bdc8b2ad-8755-4760-bc05-978a47139f09",
-      "public_key": "SQ4akXbFbfuGVJJcK06jLQ325gJpifhMvgbBrGU-2VQ",
-      "short_id": "f6ed1e56e9bb1f7b",
-      "server_name": "www.cloudflare.com",
-      "fingerprint": "chrome",
-      "flow": "",
-      "country_short": "FI",
-      "country_long": "Finland",
-      "quality_score": 1,
-      "attested_by": [
-        "CIQyrNDjNlmCAf7XJQqy/uniRdJFt/+edez4NJHGjrw="
-      ]
-    }
-  ],
+  "reality_servers": [],
   "introducer_url": "https://zat.samnodehi.cloud",
-  "rendezvous_entries": [
-    {
-      "id": "rdv-box-1",
-      "address": "167.233.141.164",
-      "port": 8446,
-      "uuid": "757f9a3a-817f-4c43-8917-58d19b822c53",
-      "public_key": "nzBZyyG-SGghaJYOjn7JviiF0JOhthya3JAepgmVnDM",
-      "short_id": "ee42826cf0b23330",
-      "server_name": "www.cloudflare.com",
-      "fingerprint": "chrome",
-      "flow": "",
-      "attested_by": [
-        "CIQyrNDjNlmCAf7XJQqy/uniRdJFt/+edez4NJHGjrw="
-      ]
-    }
-  ],
+  "rendezvous_entries": [],
   "rotation_policy": {
     "protocol_fallback_order": [
       "sstp"
@@ -109,5 +76,5 @@
     "period": 20734,
     "signature": "Gb/oYhSqA9kboMMLYNIutqOoGA98vSoph1QgEbujNWKSuymOJuxS2lZnNm1KziCGG6/p9JFSJ1IqbIZHxuXSBg=="
   },
-  "signature": "hJ5JfLzKd2+kvTA5h+MkDeSkx8wQ1preuN83mZz2M7iMT1MSz9spEL8rcENtofr4wJMH+CGawxGJVwKnYHmNAQ=="
+  "signature": "qy2DKd61IpljXqvqGks/fXAcixhvfay3ju0tA6ux1rJWjidDsCA3yKwsrVHd1dK2AfwbPSehNikzZrwQuSQPAw=="
 }
