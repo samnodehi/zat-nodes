@@ -1,9 +1,27 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-10-09T10:20:00.048Z",
+  "generated_at": "2026-10-09T10:25:00.016Z",
   "ttl_seconds": 600,
-  "reality_servers": [],
+  "reality_servers": [
+    {
+      "id": "exit-fsn1",
+      "address": "167.233.141.164",
+      "port": 8444,
+      "uuid": "bdc8b2ad-8755-4760-bc05-978a47139f09",
+      "public_key": "SQ4akXbFbfuGVJJcK06jLQ325gJpifhMvgbBrGU-2VQ",
+      "short_id": "f6ed1e56e9bb1f7b",
+      "server_name": "www.cloudflare.com",
+      "fingerprint": "chrome",
+      "flow": "",
+      "country_short": "FI",
+      "country_long": "Finland",
+      "quality_score": 1,
+      "attested_by": [
+        "CIQyrNDjNlmCAf7XJQqy/uniRdJFt/+edez4NJHGjrw="
+      ]
+    }
+  ],
   "introducer_url": "https://zat.samnodehi.cloud",
   "rendezvous_entries": [
     {
@@ -91,5 +109,5 @@
     "period": 20735,
     "signature": "VCaBTIbZ7gQG6UIHtkPbLb3hPZGteo0pfNvEyZYIzB7u4yvp3q0hgHsjWm2r1SrpdFk8Ncl44yzhQQYqqF3iBw=="
   },
-  "signature": "Wxst5HByCuADluFl6SUGLENOuNATxtqE2zx8i4bgsJhmRwlsRl3s/HSE7Na7amIsNzNis9U7cV6geqamFfCRDg=="
+  "signature": "bcze0n38vn6iT2VrU8Tb+iBQfLlQigSyIA7vIDrUlHYxBdZ6BBAxyfJzIrumUcKnkdAE3coyEavIywSJKSaQDA=="
 }
