@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-10-13T23:00:00.050Z",
+  "generated_at": "2026-10-13T23:15:00.018Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -74,21 +74,6 @@
         "committeeId": 3
       },
       {
-        "httpEndpoint": "177.7.52.41:8460",
-        "dhtMultiaddr": "/ip4/177.7.52.41/tcp/8461/p2p/12D3KooWPL3BGX1YtiXmTpk51TNcQaAT3VSU21bkNUtnJQqY9DPh",
-        "reality": {
-          "host": "177.7.52.41",
-          "port": 8445,
-          "uuid": "f98bebe1-7559-4be3-abd8-1e29f9a9a136",
-          "publicKey": "nd5N7XYazhiAmlWZcfy1slooGrmnBE6KQn6GQlbdlxw",
-          "shortId": "49bcef6426abdcae",
-          "serverName": "www.cloudflare.com",
-          "fingerprint": "chrome"
-        },
-        "shardPort": 8460,
-        "committeeId": 2
-      },
-      {
         "httpEndpoint": "141.136.42.96:8460",
         "dhtMultiaddr": "/ip4/141.136.42.96/tcp/8461/p2p/12D3KooWJDFBVjBa9XXmWb1sp51Xk8pL8mXmeYRyUZKK1dQnpEcv",
         "reality": {
@@ -102,6 +87,21 @@
         },
         "shardPort": 8460,
         "committeeId": 1
+      },
+      {
+        "httpEndpoint": "177.7.52.41:8460",
+        "dhtMultiaddr": "/ip4/177.7.52.41/tcp/8461/p2p/12D3KooWPL3BGX1YtiXmTpk51TNcQaAT3VSU21bkNUtnJQqY9DPh",
+        "reality": {
+          "host": "177.7.52.41",
+          "port": 8445,
+          "uuid": "f98bebe1-7559-4be3-abd8-1e29f9a9a136",
+          "publicKey": "nd5N7XYazhiAmlWZcfy1slooGrmnBE6KQn6GQlbdlxw",
+          "shortId": "49bcef6426abdcae",
+          "serverName": "www.cloudflare.com",
+          "fingerprint": "chrome"
+        },
+        "shardPort": 8460,
+        "committeeId": 2
       }
     ]
   },
@@ -109,5 +109,5 @@
     "period": 20739,
     "signature": "Sk9ZL5nOmVUZkxnSBqYJQ4BJMEFp7lD9KVf8bkRxYxQXlZW68NdRKF4Au/Y0kBHOcZNf2NcuVn/uF93+rTE2CQ=="
   },
-  "signature": "IKK1qVG5sGM9tPFRKzmNVLHXFWBN+7xiqNP6Pxqx1oP5xx5x5nhWUI+ku+aOtk6XgpuvjdEnbjRdg5tWnc5yBQ=="
+  "signature": "zB+f2fpwRkMj83skilyf8rkyOlKy6j73ZEKGI0icYnIMfId3VMB0v2jOR6twRdWZCOOCwmQguwohnaFjXnUeDw=="
 }
