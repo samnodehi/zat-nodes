@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-10-14T00:00:00.055Z",
+  "generated_at": "2026-10-14T00:15:00.022Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -71,7 +71,7 @@
           "fingerprint": "chrome"
         },
         "shardPort": 8460,
-        "committeeId": 3
+        "committeeId": 2
       },
       {
         "httpEndpoint": "141.136.42.96:8460",
@@ -86,7 +86,7 @@
           "fingerprint": "chrome"
         },
         "shardPort": 8460,
-        "committeeId": 1
+        "committeeId": 3
       },
       {
         "httpEndpoint": "177.7.52.41:8460",
@@ -101,13 +101,13 @@
           "fingerprint": "chrome"
         },
         "shardPort": 8460,
-        "committeeId": 2
+        "committeeId": 1
       }
     ]
   },
   "committee_rank_beacon": {
-    "period": 20739,
-    "signature": "Sk9ZL5nOmVUZkxnSBqYJQ4BJMEFp7lD9KVf8bkRxYxQXlZW68NdRKF4Au/Y0kBHOcZNf2NcuVn/uF93+rTE2CQ=="
+    "period": 20740,
+    "signature": "Hiq21gfRfi03k6/ltZ0DzrbhYI6PevREHImJDqN0ka1AsjOuExHRdGfdaDoG83b6WWEacCPpqTpz4mRT9UYNCw=="
   },
-  "signature": "zHhQA2BAjBSLDfExkcKeT/c4RnrgpVL/xGXE+y5cPKA7TJMT2/7s67YtHVYLMJtCstjE6gnJfJBmqdTgalJOBA=="
+  "signature": "E5+Y5+TxtViWYWOWxbY2qSQxSEA27e08imt4+y+cTcfXWn+7vkX6XfLJiBes27rBzFP7u7ALb/qpzPYoRhSDAA=="
 }
