@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-10-15T13:05:00.018Z",
+  "generated_at": "2026-10-15T13:20:00.021Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -74,21 +74,6 @@
         "committeeId": 3
       },
       {
-        "httpEndpoint": "141.136.42.96:8460",
-        "dhtMultiaddr": "/ip4/141.136.42.96/tcp/8461/p2p/12D3KooWJDFBVjBa9XXmWb1sp51Xk8pL8mXmeYRyUZKK1dQnpEcv",
-        "reality": {
-          "host": "141.136.42.96",
-          "port": 8445,
-          "uuid": "61b82be3-2770-4ff7-9fb7-5e79bfbfd79f",
-          "publicKey": "y2bBMBBjkxHdpFCecVDOqovWAKUplf6opF7s7n-C83w",
-          "shortId": "253e3e3ae344807c",
-          "serverName": "www.cloudflare.com",
-          "fingerprint": "chrome"
-        },
-        "shardPort": 8460,
-        "committeeId": 2
-      },
-      {
         "httpEndpoint": "177.7.52.41:8460",
         "dhtMultiaddr": "/ip4/177.7.52.41/tcp/8461/p2p/12D3KooWPL3BGX1YtiXmTpk51TNcQaAT3VSU21bkNUtnJQqY9DPh",
         "reality": {
@@ -102,6 +87,21 @@
         },
         "shardPort": 8460,
         "committeeId": 1
+      },
+      {
+        "httpEndpoint": "141.136.42.96:8460",
+        "dhtMultiaddr": "/ip4/141.136.42.96/tcp/8461/p2p/12D3KooWJDFBVjBa9XXmWb1sp51Xk8pL8mXmeYRyUZKK1dQnpEcv",
+        "reality": {
+          "host": "141.136.42.96",
+          "port": 8445,
+          "uuid": "61b82be3-2770-4ff7-9fb7-5e79bfbfd79f",
+          "publicKey": "y2bBMBBjkxHdpFCecVDOqovWAKUplf6opF7s7n-C83w",
+          "shortId": "253e3e3ae344807c",
+          "serverName": "www.cloudflare.com",
+          "fingerprint": "chrome"
+        },
+        "shardPort": 8460,
+        "committeeId": 2
       }
     ]
   },
@@ -109,5 +109,5 @@
     "period": 20741,
     "signature": "ruL4TH2cjQz5j3SkefkMXS5D//e0oPZzocN1Emknb3edTVa9yh9xHeLbLBnkoXoTSQ9EJZn9BjlfQ5/OQfJzDg=="
   },
-  "signature": "w4Z4QKexpHu3kelRDvcWfcYwB1hcUhpj7dbDEnfEZzzw1VE7VsNdJgUrUWNfOo8ArkSEWHYMMERi4aByXgZUCA=="
+  "signature": "zknim7qp3EcyJfgWVUcuACpTlnqhCSP+cmw23c9ipTW4QXXvElpzchXU1tp8DayGlg33Os8TNuwTBeprZrUXAQ=="
 }
