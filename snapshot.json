@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-10-21T13:10:00.044Z",
+  "generated_at": "2026-10-21T13:25:00.048Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -59,6 +59,21 @@
     "thresholdN": 3,
     "shards": [
       {
+        "httpEndpoint": "141.136.42.96:8460",
+        "dhtMultiaddr": "/ip4/141.136.42.96/tcp/8461/p2p/12D3KooWSu1Nbk2wpmimC5A2LgMvMf9ArAcM1etTY7dgXkRsQLJ3",
+        "reality": {
+          "host": "141.136.42.96",
+          "port": 8445,
+          "uuid": "61b82be3-2770-4ff7-9fb7-5e79bfbfd79f",
+          "publicKey": "y2bBMBBjkxHdpFCecVDOqovWAKUplf6opF7s7n-C83w",
+          "shortId": "253e3e3ae344807c",
+          "serverName": "www.cloudflare.com",
+          "fingerprint": "chrome"
+        },
+        "shardPort": 8460,
+        "committeeId": 2
+      },
+      {
         "httpEndpoint": "177.7.52.41:8460",
         "dhtMultiaddr": "/ip4/177.7.52.41/tcp/8461/p2p/12D3KooWDHiqNyyUeweyArMLwb22T7qmoDdhbX4XK8VNz1F1Mbrr",
         "reality": {
@@ -87,21 +102,6 @@
         },
         "shardPort": 8460,
         "committeeId": 3
-      },
-      {
-        "httpEndpoint": "141.136.42.96:8460",
-        "dhtMultiaddr": "/ip4/141.136.42.96/tcp/8461/p2p/12D3KooWSu1Nbk2wpmimC5A2LgMvMf9ArAcM1etTY7dgXkRsQLJ3",
-        "reality": {
-          "host": "141.136.42.96",
-          "port": 8445,
-          "uuid": "61b82be3-2770-4ff7-9fb7-5e79bfbfd79f",
-          "publicKey": "y2bBMBBjkxHdpFCecVDOqovWAKUplf6opF7s7n-C83w",
-          "shortId": "253e3e3ae344807c",
-          "serverName": "www.cloudflare.com",
-          "fingerprint": "chrome"
-        },
-        "shardPort": 8460,
-        "committeeId": 2
       }
     ]
   },
@@ -109,5 +109,5 @@
     "period": 20747,
     "signature": "ZvJ+fKp+eUUez+hmOs46Y1qkORvnofbdUe3ltdxSyK9cnvIDucC8NyKpPSXgh07sAYGLYY2HqkOb+PrdEMBUBQ=="
   },
-  "signature": "GirouDCnMvpqbaGETlpmUwWvatOd5aHrC2kh6AwcbHli/XMgErJMJLL8YOKwfbDw82Zwf0DZfI3FTYx8aV5KCg=="
+  "signature": "t952isSa0ID5OoiJEHdmjkOG+/8aOshS9ny8r3mWb5ZqoN27RwwJJX+2qBFvox7Fv7rMzBVFjnD3eUA9af6zBg=="
 }
