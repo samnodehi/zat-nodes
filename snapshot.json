@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-10-26T10:20:00.040Z",
+  "generated_at": "2026-10-26T10:22:51.291Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -48,66 +48,9 @@
     "avoid_rotation_during_upload": true,
     "avoid_rotation_during_call": true
   },
-  "mesh_entry": {
-    "suite": "ristretto255-SHA512",
-    "publicKey": "Ri4ulckvcYH6yphH3Ry7kQAWOoo2Mqu21QNRa4ZIqBQ=",
-    "N": 64,
-    "r": 4,
-    "s": 8,
-    "epochMs": 3600000,
-    "thresholdT": 2,
-    "thresholdN": 3,
-    "shards": [
-      {
-        "httpEndpoint": "167.233.141.164:8460",
-        "dhtMultiaddr": "/ip4/167.233.141.164/tcp/8461/p2p/12D3KooWRdpjcDqgWSP4bEV44k44MXcgk3PvBr9n8KdEMab7cpoU",
-        "reality": {
-          "host": "167.233.141.164",
-          "port": 8445,
-          "uuid": "f0378639-98cf-4ddd-b1fa-ab9c259b5250",
-          "publicKey": "GE6rsoNAnCK-mqV8_eqCY_j0Gi2idoWDod8UH-Pndik",
-          "shortId": "97443cce09111f39",
-          "serverName": "www.cloudflare.com",
-          "fingerprint": "chrome"
-        },
-        "shardPort": 8460,
-        "committeeId": 1
-      },
-      {
-        "httpEndpoint": "141.136.42.96:8460",
-        "dhtMultiaddr": "/ip4/141.136.42.96/tcp/8461/p2p/12D3KooWAWcgsZciTGHFsQkvHWwS6BXbmaHSTY2TK8vQkauyFMsV",
-        "reality": {
-          "host": "141.136.42.96",
-          "port": 8445,
-          "uuid": "61b82be3-2770-4ff7-9fb7-5e79bfbfd79f",
-          "publicKey": "y2bBMBBjkxHdpFCecVDOqovWAKUplf6opF7s7n-C83w",
-          "shortId": "253e3e3ae344807c",
-          "serverName": "www.cloudflare.com",
-          "fingerprint": "chrome"
-        },
-        "shardPort": 8460,
-        "committeeId": 3
-      },
-      {
-        "httpEndpoint": "177.7.52.41:8460",
-        "dhtMultiaddr": "/ip4/177.7.52.41/tcp/8461/p2p/12D3KooWJHrH9RpzorKyKq93P2W1cUvjfndvUKp6oR7xhCQSb4Fu",
-        "reality": {
-          "host": "177.7.52.41",
-          "port": 8445,
-          "uuid": "f98bebe1-7559-4be3-abd8-1e29f9a9a136",
-          "publicKey": "nd5N7XYazhiAmlWZcfy1slooGrmnBE6KQn6GQlbdlxw",
-          "shortId": "49bcef6426abdcae",
-          "serverName": "www.cloudflare.com",
-          "fingerprint": "chrome"
-        },
-        "shardPort": 8460,
-        "committeeId": 2
-      }
-    ]
-  },
   "committee_rank_beacon": {
     "period": 20752,
-    "signature": "takTuyS230FoGw8EHJk4Kk5UKU5Ht8w6P766l9Qrr9URcGjCNEonZxK4tseohIaK0g4GsmFG9iifhQKN3m3RAQ=="
+    "signature": "7wtbEQ0Io4ekUR9al7rzQOf1X3iC8ZIxyg1JU/47GtDtWQ/EwLtscv8w3wWw0NCt6vzaKHiGbT1ZqW2mM175AA=="
   },
-  "signature": "46j42JItOcUqn+FbHTUJAHc+ctrNg69KYdgcrBE39uooAqYh84I8sL2lx1M5uRTxCnYQPcWZW1hpLM1IZ24PBA=="
+  "signature": "+/6vF+ugfxf+0AEHTcGHzzIj+69nTMTanlUPU6OEY2PPyMpOZBzeYMS8lhIdr5vVOnWchx6psMLO30ofv6V4Bg=="
 }
