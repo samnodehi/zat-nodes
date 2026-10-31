@@ -1,7 +1,7 @@
 {
   "doc": "zat.snapshot.v1",
   "schema_version": 1,
-  "generated_at": "2026-10-31T00:00:00.048Z",
+  "generated_at": "2026-10-31T00:05:00.020Z",
   "ttl_seconds": 600,
   "reality_servers": [
     {
@@ -49,8 +49,8 @@
     "avoid_rotation_during_call": true
   },
   "committee_rank_beacon": {
-    "period": 20756,
-    "signature": "ZISufIPed0f2+uCw02AZOwiuzIuVDMo3Yyd1abxKhr9v7NIn5ynM8Aoy7QKs8MaYR3rMUGU6F5V5TWSr314RCQ=="
+    "period": 20757,
+    "signature": "+pxPAF0ONcTPsYRljm6PH8JapenQ4NnSyl+L91iPSMzmi4GvSBMQwx0aOgA9a+BFWVhth5VezBYUn/HlrOscDA=="
   },
-  "signature": "3V4u/Mvj08aPWjlWCBvEgd258umocDYXtENRno6tIicLrGZ8h3Cj7yXzfxTnecXfwBUkSbZXr9mylhpOEqvTBA=="
+  "signature": "AUPLn69rX1sIPAltdoujSW/Ma1V8P5niQEuipCtwzqEv2PgnvHuJ5lBuoJHjRRs7FdFaXSLD1HsXRvoM/boODQ=="
 }
